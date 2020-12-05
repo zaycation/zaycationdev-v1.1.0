@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ☢☢️ UNDER CONSTRUCTION ☢️
 
-[View the Pre-Launch Demo](https://imgur.com/a/RF1NT8n)
+[View the Pre-Launch Demo](https://vigilant-thompson-6caced.netlify.app/)
