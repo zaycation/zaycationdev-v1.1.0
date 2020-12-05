@@ -22,7 +22,7 @@ function Projects() {
       <h4 className="text-center text-white">Recent Projects</h4>
       <br />
 
-      <Container>
+      <Container fluid>
         <Row>
           <Col lg="2"></Col>
           <Col sm="12" lg="8">

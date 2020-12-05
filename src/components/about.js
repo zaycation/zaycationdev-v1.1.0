@@ -2,11 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <div>
+    <div className="text-center">
       <br />
       <p>
-        I'm a driven and ambitious full-stack software engineer residing outside
-        of Oakland, CA.
+        <strong>
+          I'm a driven and ambitious full-stack software engineer residing
+          outside of Oakland, CA.
+        </strong>
       </p>
       <p>
         I love designing user interfaces for mobile and desktop devices. I'm
