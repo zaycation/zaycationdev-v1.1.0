@@ -7,6 +7,7 @@ function About() {
   const [loading] = useState(false);
   return (
     <div className="text-center about-bg">
+      <br />
       <h4 className="">
         who is <strong style={{ color: "#17a2b8" }}>zaycation.dev</strong>?
       </h4>
@@ -54,6 +55,7 @@ function About() {
         , a small financial services startup in Southern California.
       </p>
       <GitHubCalendar username="zaycation" />
+      <br />
     </div>
   );
 }
