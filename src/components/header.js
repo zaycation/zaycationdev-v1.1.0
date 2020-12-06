@@ -27,10 +27,11 @@ const ZoomDiv = styled.div`
 `;
 
 const FlipDiv = styled.div`
-  animation: 2s ${flipAnimation};
+  animation: 3.7s ${flipAnimation};
 `;
 
 function Header() {
+  
   return (
     <div className="header">
       <br />
@@ -54,10 +55,25 @@ function Header() {
         </PulseDiv>
       </div>
       <div className="header-btns">
-        <Button size="sm" theme="info">
+        <Button
+          size="sm"
+          theme="info"
+          onClick={() =>
+            window.open("mailto:isaiahthomas098@gmail.com", "_blank")
+          }
+        >
           Shoot me an Email
         </Button>
-        <Button size="sm" theme="info">
+        <Button
+          size="sm"
+          theme="info"
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1ZjQjiz-IjB7ecyCkebY1QzibT5vf03Jv/view?usp=sharing",
+              "_blank"
+            )
+          }
+        >
           Download Resume
         </Button>
       </div>
@@ -65,12 +81,27 @@ function Header() {
         <br />
       </div>
       <div className="social-btns">
-        <Button outline size="sm" theme="secondary">
+        <Button
+          outline
+          size="sm"
+          theme="secondary"
+          onClick={() => window.open("https://github.com/zaycation", "_blank")}
+        >
           <IconContext.Provider value={{ color: "white", size: "18px" }}>
             <FaGithubAlt />
           </IconContext.Provider>
         </Button>
-        <Button outline size="sm" theme="secondary">
+        <Button
+          outline
+          size="sm"
+          theme="secondary"
+          onClick={() =>
+            window.open(
+              "https://www.linkedin.com/in/isaiahthomas098/",
+              "_blank"
+            )
+          }
+        >
           <IconContext.Provider value={{ color: "white", size: "18px" }}>
             <FaLinkedin />
           </IconContext.Provider>
@@ -78,12 +109,24 @@ function Header() {
         <IconContext.Provider value={{ color: "white", size: "18px" }}>
           <FaCode />
         </IconContext.Provider>
-        <Button outline size="sm" theme="secondary">
+        <Button
+          outline
+          size="sm"
+          theme="secondary"
+          onClick={() =>
+            window.open("https://twitter.com/zaycationdev", "_blank")
+          }
+        >
           <IconContext.Provider value={{ color: "white", size: "18px" }}>
             <FaTwitter />
           </IconContext.Provider>
         </Button>
-        <Button outline size="sm" theme="secondary">
+        <Button
+          outline
+          size="sm"
+          theme="secondary"
+          onClick={() => window.open("https://discord.gg/BbVFuVPTKY", "_blank")}
+        >
           <IconContext.Provider value={{ color: "white", size: "18px" }}>
             <FaDiscord />
           </IconContext.Provider>
@@ -98,7 +141,7 @@ function Header() {
           <Technologies />
         </ZoomDiv>
       </div>
-        <br />
+      <br />
       {/*
       <div>
         <DiJavascript1 />

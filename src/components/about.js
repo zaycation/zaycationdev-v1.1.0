@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="text-center">
+    <div className="text-center about-bg">
       <br />
       <p>
         <strong>
@@ -39,6 +39,7 @@ function About() {
         </a>
         , a small financial services startup in Southern California.
       </p>
+      <br />
     </div>
   );
 }

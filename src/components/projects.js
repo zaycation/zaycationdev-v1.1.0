@@ -11,6 +11,8 @@ import {
   Button,
 } from "shards-react";
 
+import { FaGithub } from "react-icons/fa";
+
 import scoutfi from "../images/scoutfi.png";
 import snake from "../images/snake.png";
 
@@ -34,6 +36,12 @@ function Projects() {
                   Elegantly design landing page with an appointment form to
                   generate new leads. Built with the MERN Stack.
                 </CardText>
+                <Button
+                  theme="success"
+                  onClick={() => window.open("https://scoutfi.com/", "_blank")}
+                >
+                  View Live &rarr;
+                </Button>
               </CardBody>
             </Card>
           </Col>
@@ -50,6 +58,17 @@ function Projects() {
                   A simple, open-source express server template for new devs to
                   help guide them when setting up an Express app.
                 </CardText>
+                <Button
+                  theme="success"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/zaycation/Basic-Express-Server",
+                      "_blank"
+                    )
+                  }
+                >
+                  Get Source Code &rarr;
+                </Button>
               </CardBody>
             </Card>
           </Col>
@@ -68,6 +87,17 @@ function Projects() {
                   Open-Source Snake remake with ReactJS seeking contributions.
                   Auth and leaderboards coming soon.
                 </CardText>
+                <Button
+                  theme="success"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/zaycation/SimpleSnake",
+                      "_blank"
+                    )
+                  }
+                >
+                  View Live &rarr;
+                </Button>
               </CardBody>
             </Card>
           </Col>
@@ -84,14 +114,29 @@ function Projects() {
                   A simple, open-source express server template for new devs to
                   help guide them when setting up an Express app.
                 </CardText>
+                <Button
+                  theme="success"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/zaycation/hadesbot002",
+                      "_blank"
+                    )
+                  }
+                >
+                  Get Source Code &rarr;
+                </Button>
               </CardBody>
             </Card>
           </Col>
           <Col lg="2"></Col>
         </Row>
         <br />
-        <Button block theme="info">
-          View More
+        <Button
+          block
+          theme="secondary"
+          onClick={() => window.open("https://github.com/zaycation", "_blank")}
+        >
+          <FaGithub /> View All Open-Source Projects <FaGithub />
         </Button>
         <br />
       </Container>

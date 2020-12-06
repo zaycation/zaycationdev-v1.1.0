@@ -14,7 +14,6 @@ function App() {
   return (
     <Container className="main-container">
       <Row>
-        <br />
         <Col lg="2"></Col>
         <Col sm="12" lg="8">
           <div className="banner"></div>
@@ -31,11 +30,9 @@ function App() {
 
       <Row>
         <Col lg="2"></Col>
-
         <Col sm="12" lg="8">
           <About />
         </Col>
-
         <Col lg="2"></Col>
       </Row>
 
@@ -49,6 +46,7 @@ function App() {
         </Col>
         <Col lg="2"></Col>
       </Row>
+
     </Container>
   );
 }
