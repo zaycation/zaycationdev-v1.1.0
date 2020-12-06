@@ -26,9 +26,12 @@ function About() {
         temperament makes working with me a joy.
       </p>
       <p className="text-black">
-        <strong>My goal is to build something</strong> that users feel they
-        simply cannot live without. Or, in other words, something{" "}
-        <strong>universally useful.</strong>
+        <strong style={{ color: "#17a2b8" }}>
+          My goal is to build something
+        </strong>{" "}
+        that users feel they simply cannot live without. Or, in other words,
+        something{" "}
+        <strong style={{ color: "#17a2b8" }}>universally useful.</strong>
       </p>
       <p className="text-black">
         I originally sought interest in coding by creating iOS jailbreak tweaks
