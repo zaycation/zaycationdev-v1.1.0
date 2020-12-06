@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
 import BarLoader from "react-spinners/BarLoader";
+import GitHubCalendar from "react-github-calendar";
 
 function About() {
   const [loading] = useState(false);
-
   return (
     <div className="text-center about-bg">
-      <h5 className="">
+      <h4 className="">
         who is <strong style={{ color: "#17a2b8" }}>zaycation.dev</strong>?
-      </h5>
+      </h4>
       <BarLoader size={400} color={"#000"} loading={loading} width="50%" />{" "}
       <br />
       <p className="text-black">
@@ -37,7 +37,6 @@ function About() {
           href="https://www.nucamp.co/bootcamp-overview/full-stack-web-mobile-development"
           target="_blank"
           rel="noreferrer"
-
           style={{ color: "#17a2b8" }}
         >
           Nucamp Coding Bootcamp’s
@@ -54,7 +53,7 @@ function About() {
         </a>
         , a small financial services startup in Southern California.
       </p>
-      <br />
+      <GitHubCalendar username="zaycation" />
     </div>
   );
 }
