@@ -22,47 +22,111 @@ import { DiBootstrap } from "react-icons/di";
 function Technologies() {
   return (
     <IconContext.Provider value={{ color: "white", size: "20px" }}>
-      <a href="https://www.javascript.com/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.javascript.com/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiJavascript1 />
       </a>
-      <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+      <a
+        href="https://git-scm.com/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiGit />
       </a>
-      <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.mongodb.com/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiMongodb />
       </a>
-      <a href="https://www.heroku.com/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.heroku.com/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiHeroku />
       </a>
-      <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
+      <a
+        href="https://aws.amazon.com/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiAws />
       </a>
-      <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+      <a
+        href="https://reactjs.org/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiReact />
       </a>
-      <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
+      <a
+        href="https://nodejs.org/en/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiNodejsSmall />
       </a>
       <a
         href="https://developer.apple.com/swift/"
         target="_blank"
         rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
       >
         <DiSwift />
       </a>
-      <a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
+      <a
+        href="https://sass-lang.com/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiSass />
       </a>
-      <a href="https://www.raspberrypi.org/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.raspberrypi.org/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiRasberryPi />
       </a>
-      <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
+      <a
+        href="https://code.visualstudio.com/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiVisualstudio />
       </a>
       <a
         href="https://www.adobe.com/products/photoshop.html"
         target="_blank"
         rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
       >
         <DiPhotoshop />
       </a>
@@ -70,19 +134,45 @@ function Technologies() {
         href="https://www.w3.org/TR/2017/REC-html52-20171214/"
         target="_blank"
         rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
       >
         <DiHtml5 />
       </a>
-      <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.w3.org/TR/CSS/#css"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiCss3 />
       </a>
-      <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">
+      <a
+        href="https://getbootstrap.com/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiBootstrap />
       </a>
-      <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.npmjs.com/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiNpm />
       </a>
-      <a href="https://nginx.org/" target="_blank" rel="noreferrer">
+      <a
+        href="https://nginx.org/"
+        target="_blank"
+        rel="noreferrer"
+        onMouseOver={({ target }) => (target.style.color = "#17a2b8")}
+        onMouseOut={({ target }) => (target.style.color = "white")}
+      >
         <DiNginx />
       </a>
     </IconContext.Provider>

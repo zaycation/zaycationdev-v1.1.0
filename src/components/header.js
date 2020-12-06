@@ -23,7 +23,7 @@ const PulseDiv = styled.div`
 `;
 
 const ZoomDiv = styled.div`
-  animation: 5s ${zoomAnimation};
+  animation: 4s ${zoomAnimation};
 `;
 
 const FlipDiv = styled.div`
@@ -31,7 +31,6 @@ const FlipDiv = styled.div`
 `;
 
 function Header() {
-  
   return (
     <div className="header">
       <br />
@@ -106,7 +105,7 @@ function Header() {
             <FaLinkedin />
           </IconContext.Provider>
         </Button>
-        <IconContext.Provider value={{ color: "white", size: "18px" }}>
+        <IconContext.Provider value={{ color: "#17a2b8", size: "18px" }}>
           <FaCode />
         </IconContext.Provider>
         <Button
@@ -144,25 +143,25 @@ function Header() {
       <br />
       {/*
       <div>
-        <DiJavascript1 />
-        <DiGit />
-        <DiMongodb />
-        <DiHeroku />
-        <DiAws />
-        <DiReact />
-        <DiNodejsSmall />
-        <DiSwift />
-        <DiSass />
-        <DiRasberryPi />
-        <DiVisualstudio />
-        <DiPhotoshop />
-        <DiHtml5 />
-        <DiCss3 />
-        <DiBootstrap />
-        <DiNpm />
-        <DiNginx />
+      <DiJavascript1 />
+      <DiGit />
+      <DiMongodb />
+      <DiHeroku />
+      <DiAws />
+      <DiReact />
+      <DiNodejsSmall />
+      <DiSwift />
+      <DiSass />
+      <DiRasberryPi />
+      <DiVisualstudio />
+      <DiPhotoshop />
+      <DiHtml5 />
+      <DiCss3 />
+      <DiBootstrap />
+      <DiNpm />
+      <DiNginx />
       </div>
-       */}
+    */}
     </div>
   );
 }

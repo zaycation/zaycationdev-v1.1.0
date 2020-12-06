@@ -133,7 +133,7 @@ function Projects() {
         <br />
         <Button
           block
-          theme="secondary"
+          theme="light"
           onClick={() => window.open("https://github.com/zaycation", "_blank")}
         >
           <FaGithub /> View All Open-Source Projects <FaGithub />
