@@ -40,7 +40,7 @@ function Header() {
             src={headshot}
             alt="headshot"
             width="20%"
-            className="headshot-img"
+            className="headshot-img pfp-pop"
           />
         </div>
       </FlipDiv>

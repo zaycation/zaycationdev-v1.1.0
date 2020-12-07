@@ -79,6 +79,28 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.pfp-pop:hover {
+  transform: scale(1.045);
+}
+
+.card-pop {
+  margin: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+
+.card-pop:hover {
+  transform: scale(1.015);
+}
+
+.card__button {
+  text-decoration: none !important;
+  color: #343a40 !important;
+}
+
 .footer-bg {
   background-color: #000;
   margin-bottom: -5em;

@@ -28,22 +28,31 @@ function Projects() {
         <Row>
           <Col lg="2"></Col>
           <Col sm="12" lg="8">
-            <Card>
-              <CardImg top src={scoutfi} />
-              <CardBody>
-                <CardTitle>scoutfi.com</CardTitle>
-                <CardText>
-                  Elegantly design landing page with an appointment form to
-                  generate new leads. Built with the MERN Stack.
-                </CardText>
-                <Button
-                  theme="success"
-                  onClick={() => window.open("https://scoutfi.com/", "_blank")}
-                >
-                  View Live &rarr;
-                </Button>
-              </CardBody>
-            </Card>
+            <a
+              href="https://scoutfi.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="card__button"
+            >
+              <Card className="card-pop">
+                <CardImg top src={scoutfi} />
+                <CardBody>
+                  <CardTitle>scoutfi.com</CardTitle>
+                  <CardText>
+                    Elegantly design landing page with an appointment form to
+                    generate new leads. Built with the MERN Stack.
+                  </CardText>
+                  <Button
+                    theme="success"
+                    onClick={() =>
+                      window.open("https://scoutfi.com/", "_blank")
+                    }
+                  >
+                    View Live &rarr;
+                  </Button>
+                </CardBody>
+              </Card>
+            </a>
           </Col>
           <Col lg="2"></Col>
         </Row>
@@ -51,26 +60,33 @@ function Projects() {
         <Row>
           <Col lg="2"></Col>
           <Col sm="12" lg="8">
-            <Card>
-              <CardBody>
-                <CardTitle>Basic Express Server</CardTitle>
-                <CardText>
-                  A simple, open-source express server template for new devs to
-                  help guide them when setting up an Express app.
-                </CardText>
-                <Button
-                  theme="success"
-                  onClick={() =>
-                    window.open(
-                      "https://github.com/zaycation/Basic-Express-Server",
-                      "_blank"
-                    )
-                  }
-                >
-                  Get Source Code &rarr;
-                </Button>
-              </CardBody>
-            </Card>
+            <a
+              href="https://github.com/zaycation/Basic-Express-Server"
+              target="_blank"
+              rel="noreferrer"
+              className="card__button"
+            >
+              <Card className="card-pop">
+                <CardBody>
+                  <CardTitle>Basic Express Server</CardTitle>
+                  <CardText>
+                    A simple, open-source express server template for new devs
+                    to help guide them when setting up an Express app.
+                  </CardText>
+                  <Button
+                    theme="success"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/zaycation/Basic-Express-Server",
+                        "_blank"
+                      )
+                    }
+                  >
+                    Get Source Code &rarr;
+                  </Button>
+                </CardBody>
+              </Card>
+            </a>
           </Col>
           <Col lg="2"></Col>
         </Row>
@@ -79,27 +95,34 @@ function Projects() {
         <Row>
           <Col lg="2"></Col>
           <Col sm="12" lg="8">
-            <Card>
-              <CardImg top src={snake} />
-              <CardBody>
-                <CardTitle>Simple Snake</CardTitle>
-                <CardText>
-                  Open-Source Snake remake with ReactJS seeking contributions.
-                  Auth and leaderboards coming soon.
-                </CardText>
-                <Button
-                  theme="success"
-                  onClick={() =>
-                    window.open(
-                      "https://github.com/zaycation/SimpleSnake",
-                      "_blank"
-                    )
-                  }
-                >
-                  View Live &rarr;
-                </Button>
-              </CardBody>
-            </Card>
+            <a
+              href="https://github.com/zaycation/SimpleSnake"
+              target="_blank"
+              rel="noreferrer"
+              className="card__button"
+            >
+              <Card className="card-pop">
+                <CardImg top src={snake} />
+                <CardBody>
+                  <CardTitle>Simple Snake</CardTitle>
+                  <CardText>
+                    Open-Source Snake remake with ReactJS seeking contributions.
+                    Auth and leaderboards coming soon.
+                  </CardText>
+                  <Button
+                    theme="success"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/zaycation/SimpleSnake",
+                        "_blank"
+                      )
+                    }
+                  >
+                    View Repo &rarr;
+                  </Button>
+                </CardBody>
+              </Card>
+            </a>
           </Col>
           <Col lg="2"></Col>
         </Row>
@@ -107,26 +130,33 @@ function Projects() {
         <Row>
           <Col lg="2"></Col>
           <Col sm="12" lg="8">
-            <Card>
-              <CardBody>
-                <CardTitle>Hades Discord Bot</CardTitle>
-                <CardText>
-                  A simple, open-source express server template for new devs to
-                  help guide them when setting up an Express app.
-                </CardText>
-                <Button
-                  theme="success"
-                  onClick={() =>
-                    window.open(
-                      "https://github.com/zaycation/hadesbot002",
-                      "_blank"
-                    )
-                  }
-                >
-                  Get Source Code &rarr;
-                </Button>
-              </CardBody>
-            </Card>
+            <a
+              href="https://github.com/zaycation/hadesbot002"
+              target="_blank"
+              rel="noreferrer"
+              className="card__button"
+            >
+              <Card className="card-pop">
+                <CardBody>
+                  <CardTitle>Hades Discord Bot</CardTitle>
+                  <CardText>
+                    A simple, open-source express server template for new devs
+                    to help guide them when setting up an Express app.
+                  </CardText>
+                  <Button
+                    theme="success"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/zaycation/hadesbot002",
+                        "_blank"
+                      )
+                    }
+                  >
+                    Get Source Code &rarr;
+                  </Button>
+                </CardBody>
+              </Card>
+            </a>
           </Col>
           <Col lg="2"></Col>
         </Row>
