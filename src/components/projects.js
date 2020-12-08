@@ -39,7 +39,7 @@ function Projects() {
                 <CardBody>
                   <CardTitle>scoutfi.com</CardTitle>
                   <CardText>
-                    Elegantly design landing page with an appointment form to
+                    Elegantly designed landing page with an appointment form to
                     generate new leads. Built with the MERN Stack.
                   </CardText>
                   <Button
