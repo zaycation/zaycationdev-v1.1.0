@@ -35,12 +35,7 @@ function App() {
     <div>
       {loading ? (
         <div className="loading-screen">
-          <BarLoader
-            size={400}
-            color={"#fff"}
-            loading={loading}
-            width="100%"
-          />
+          <BarLoader size={400} color={"#fff"} loading={loading} width="100%" />
           <TadaDiv>
             <h2
               style={{
