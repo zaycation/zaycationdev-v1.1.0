@@ -140,8 +140,8 @@ function Projects() {
                 <CardBody>
                   <CardTitle>Hades Discord Bot</CardTitle>
                   <CardText>
-                    Hades [Ἁιδης] is a discord moderation bot. Add Hades to your
-                    server to help ease moderation conflicts.
+                    Hades is a discord moderation bot. Add Hades to your server
+                    to help ease moderation conflicts.
                   </CardText>
                   <Button
                     theme="success"
