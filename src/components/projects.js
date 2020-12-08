@@ -140,8 +140,8 @@ function Projects() {
                 <CardBody>
                   <CardTitle>Hades Discord Bot</CardTitle>
                   <CardText>
-                    A simple, open-source express server template for new devs
-                    to help guide them when setting up an Express app.
+                    Hades [Ἁιδης] is a discord moderation bot. Add Hades to your
+                    server to help ease moderation conflicts.
                   </CardText>
                   <Button
                     theme="success"
