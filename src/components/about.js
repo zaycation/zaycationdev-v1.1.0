@@ -67,13 +67,18 @@ function About() {
         </a>
         , a small financial services startup in Southern California.
       </p>
-      <GitHubCalendar username="zaycation" />
       <TadaDiv>
         <h4 className="hiring__text">Hire me for a project!</h4>
       </TadaDiv>
-      <Button theme="info">
-        <Link to="/pricing" className="pricing__link">View Pricing →</Link>
+      <br />
+      <Button block theme="info">
+        <Link to="/pricing" className="pricing__link">
+          View Pricing →
+        </Link>
       </Button>
+      <br />
+      <br />
+      <GitHubCalendar username="zaycation" />
       <br />
       <br />
     </div>
