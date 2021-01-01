@@ -1,7 +1,17 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import BarLoader from "react-spinners/BarLoader";
+import { tada } from "react-animations";
+import styled, { keyframes } from "styled-components";
+import { Button } from "shards-react";
 import GitHubCalendar from "react-github-calendar";
+
+const tadaAnimation = keyframes`${tada}`;
+
+const TadaDiv = styled.div`
+  animation: 4.5s infinite ${tadaAnimation};
+`;
 
 function About() {
   const [loading] = useState(false);
@@ -58,6 +68,13 @@ function About() {
         , a small financial services startup in Southern California.
       </p>
       <GitHubCalendar username="zaycation" />
+      <TadaDiv>
+        <h4 className="hiring__text">Hire me for a project!</h4>
+      </TadaDiv>
+      <Button theme="info">
+        <Link to="/pricing" className="pricing__link">View Pricing →</Link>
+      </Button>
+      <br />
       <br />
     </div>
   );

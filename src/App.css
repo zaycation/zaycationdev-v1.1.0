@@ -106,3 +106,18 @@
   margin-bottom: -5em;
   min-height: 2em;
 }
+
+.pricing__link {
+  color: #fff !important;
+}
+
+.hiring__text {
+  text-decoration: underline !important;
+  text-decoration-color: #17a2b8 !important;
+}
+
+.reach__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

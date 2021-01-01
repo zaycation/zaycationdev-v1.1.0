@@ -35,14 +35,16 @@ function Header() {
     <div className="header">
       <br />
       <FlipDiv>
-        <div className="headshot">
-          <img
-            src={headshot}
-            alt="headshot"
-            width="20%"
-            className="headshot-img pfp-pop"
-          />
-        </div>
+        <a href="/" className="img__refresh">
+          <div className="headshot">
+            <img
+              src={headshot}
+              alt="headshot"
+              width="20%"
+              className="headshot-img pfp-pop"
+            />
+          </div>
+        </a>
       </FlipDiv>
       <div>
         <br />
