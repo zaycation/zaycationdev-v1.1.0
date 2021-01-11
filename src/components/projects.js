@@ -13,6 +13,7 @@ import {
 
 import { FaGithub } from "react-icons/fa";
 
+import scouttax from "../images/scouttax.png"
 import scoutfi from "../images/scoutfi.png";
 import snake from "../images/snake.png";
 
@@ -25,6 +26,39 @@ function Projects() {
       <br />
 
       <Container fluid>
+        <Row>
+          <Col lg="2"></Col>
+          <Col sm="12" lg="8">
+            <a
+              href="https://scouttax.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="card__button"
+            >
+              <Card className="card-pop">
+                <CardImg top src={scouttax} />
+                <CardBody>
+                  <CardTitle>scouttax.com</CardTitle>
+                  <CardText>
+                    Modern landing page with a beautiful pricing section to
+                    attract new customers and educate them on the business.
+                    Built with the MERN Stack.
+                  </CardText>
+                  <Button
+                    theme="success"
+                    onClick={() =>
+                      window.open("https://scouttax.com/", "_blank")
+                    }
+                  >
+                    View Live &rarr;
+                  </Button>
+                </CardBody>
+              </Card>
+            </a>
+          </Col>
+          <Col lg="2"></Col>
+        </Row>
+        <br />
         <Row>
           <Col lg="2"></Col>
           <Col sm="12" lg="8">
