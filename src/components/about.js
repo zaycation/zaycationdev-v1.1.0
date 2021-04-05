@@ -5,7 +5,7 @@ import BarLoader from "react-spinners/BarLoader";
 import { tada } from "react-animations";
 import styled, { keyframes } from "styled-components";
 import { Button } from "shards-react";
-import GitHubCalendar from "react-github-calendar";
+//import GitHubCalendar from "react-github-calendar";
 
 const tadaAnimation = keyframes`${tada}`;
 
@@ -78,9 +78,13 @@ function About() {
       </Button>
       <br />
       <br />
-      <GitHubCalendar username="zaycation" />
+      {/*
+      <div>
+        <GitHubCalendar username="zaycation" color="hsl(203, 82%, 33%)" />
+      </div>
       <br />
       <br />
+      */}
     </div>
   );
 }
