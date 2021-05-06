@@ -26,7 +26,7 @@ function About() {
       <p className="text-black">
         <strong>
           I'm a driven and ambitious full-stack software engineer residing
-          outside of Oakland, CA.
+          within the Greater Los Angeles Area.
         </strong>
       </p>
       <p className="text-black">
@@ -68,10 +68,22 @@ function About() {
         , a small financial services startup in Southern California.
       </p>
       <TadaDiv>
-        <h4 className="hiring__text">Hire me for a project!</h4>
+        <a
+          href="https://designify.io/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <h4 className="hiring__text">Hire me for a project!</h4>
+        </a>
       </TadaDiv>
       <br />
-      <Button block theme="info">
+      <Button
+        block
+        theme="info"
+        onClick={() => {
+          window.open("https://designify.io/");
+        }}
+      >
         <Link to="/pricing" className="pricing__link">
           View Pricing →
         </Link>
