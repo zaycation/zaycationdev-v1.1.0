@@ -51,7 +51,7 @@ function Header() {
         <h4 className="text-center text-white">Isaiah Thomas</h4>
         <PulseDiv>
           <h5 className="text-center text-white">
-            Full-Stack Software Engineer
+            Software Engineer || QA Expert
           </h5>
         </PulseDiv>
       </div>

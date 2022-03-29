@@ -1,17 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-
 import BarLoader from "react-spinners/BarLoader";
-import { tada } from "react-animations";
-import styled, { keyframes } from "styled-components";
-import { Button } from "shards-react";
-//import GitHubCalendar from "react-github-calendar";
-
-const tadaAnimation = keyframes`${tada}`;
-
-const TadaDiv = styled.div`
-  animation: 4.5s infinite ${tadaAnimation};
-`;
 
 function About() {
   const [loading] = useState(false);
@@ -45,8 +33,17 @@ function About() {
       </p>
       <p className="text-black">
         I originally sought interest in coding by creating iOS jailbreak tweaks
-        and custom iOS applications. After earning most of the freeCodeCamp
-        JavaScript certificates, I continued my coding journey by attending{" "}
+        and self teaching Obj-C and Swift. I also spent time earning all
+        certificates from{" "}
+        <a
+          href="https://www.freecodecamp.org/"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "#17a2b8" }}
+        >
+          freeCodeCamp's{" "}
+        </a>
+        JavaScript bootcamp. Later, I continued my coding journey by attending{" "}
         <a
           href="https://www.nucamp.co/bootcamp-overview/full-stack-web-mobile-development"
           target="_blank"
@@ -55,48 +52,18 @@ function About() {
         >
           Nucamp Coding Bootcamp’s
         </a>{" "}
-        Full-Stack development course. Through Nucamp, I landed a Full-Stack
-        engineering position with{" "}
+        Full-Stack development course. Today, I work as a QA Engineer @{" "}
         <a
-          href="https://scoutfi.com"
+          href="https://skool.com"
           target="_blank"
           rel="noreferrer"
           style={{ color: "#17a2b8" }}
         >
-          Scout Financial, Inc
+          Skool{" "}
         </a>
-        , a small financial services startup in Southern California.
+        - a modern LMS focused on providing a beautiful, intuitive, and engaging
+        learning experience.
       </p>
-      <TadaDiv>
-        <a
-          href="https://designify.io/"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <h4 className="hiring__text">Hire me for a project!</h4>
-        </a>
-      </TadaDiv>
-      <br />
-      <Button
-        block
-        theme="info"
-        onClick={() => {
-          window.open("https://designify.io/");
-        }}
-      >
-        <Link to="/pricing" className="pricing__link">
-          View Pricing →
-        </Link>
-      </Button>
-      <br />
-      <br />
-      {/*
-      <div>
-        <GitHubCalendar username="zaycation" color="hsl(203, 82%, 33%)" />
-      </div>
-      <br />
-      <br />
-      */}
     </div>
   );
 }
